@@ -1,0 +1,33 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "name": "Last 2 Toggle",
+    "version": "1.0",
+    "description": "Toggle between the last two active tabs.",
+    "manifest_version": 3,
+    "icons": {
+        "16": "icons/16.png",
+        "32": "icons/32.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
+    "action": {},
+    "commands": {
+        "run-foo": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+Y",
+            "mac": "Command+Shift+Y"
+          },
+          "description": "Run \"foo\" on the current page.",
+          "global": true
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs",
+        "storage"
+    ]
+}
