@@ -2,7 +2,7 @@
     "update_url": "https://clients2.google.com/service/update2/crx",
     "name": "Last 2 Toggle",
     "version": "1.0",
-    "description": "Toggle between the last two active tabs.",
+    "description": "Toggle between the two latest tabs using Ctrl+Space",
     "manifest_version": 3,
     "icons": {
         "16": "icons/16.png",
@@ -12,21 +12,18 @@
     },
     "action": {},
     "commands": {
-        "hello": {
+        "toggle_tabs": {
             "suggested_key": {
                 "default": "Ctrl+Space",
                 "mac": "MacCtrl+Space"
             },
-            "description": "say hello"
+            "description": "Toggle between the two latest tabs"
         }
     },
     "background": {
         "service_worker": "background.js"
     },
     "permissions": [
-        "activeTab",
-        "scripting",
-        "tabs",
-        "storage"
+        "tabs"
     ]
 }
