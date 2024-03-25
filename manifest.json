@@ -12,13 +12,12 @@
     },
     "action": {},
     "commands": {
-        "run-foo": {
-          "suggested_key": {
-            "default": "Ctrl+Shift+Y",
-            "mac": "Command+Shift+Y"
-          },
-          "description": "Run \"foo\" on the current page.",
-          "global": true
+        "hello": {
+            "suggested_key": {
+                "default": "Ctrl+Space",
+                "mac": "MacCtrl+Space"
+            },
+            "description": "say hello"
         }
     },
     "background": {
