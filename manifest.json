@@ -1,8 +1,8 @@
 {
     "update_url": "https://clients2.google.com/service/update2/crx",
     "name": "Last Two Tabs Toggler",
-    "version": "1.2.1",
-    "description": "Toggle between the two latest active tabs using Control+Space. Useful if you want to toggle between documentation and a admin panel. You have to have visited at least two tabs after loading the extension for this to work.",
+    "version": "1.2.2",
+    "description": "Toggle between the two latest active tabs using Control+Space.",
     "manifest_version": 3,
     "icons": {
         "16": "icons/16.png",
@@ -15,6 +15,8 @@
         "toggle_tabs": {
             "suggested_key": {
                 "default": "Ctrl+Space",
+                "windows": "Ctrl+Space",
+                "linux": "Ctrl+Space",
                 "mac": "MacCtrl+Space"
             },
             "description": "Toggle between the two latest active tabs."
