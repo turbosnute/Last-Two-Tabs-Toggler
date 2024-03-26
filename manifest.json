@@ -1,7 +1,7 @@
 {
     "update_url": "https://clients2.google.com/service/update2/crx",
-    "name": "Last Two Tab Toggler",
-    "version": "1.1",
+    "name": "Last Two Tabs Toggler",
+    "version": "1.2",
     "description": "Toggle between the two latest tabs using Ctrl+Space",
     "manifest_version": 3,
     "icons": {
