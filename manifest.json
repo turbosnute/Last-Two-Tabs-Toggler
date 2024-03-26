@@ -1,7 +1,7 @@
 {
     "update_url": "https://clients2.google.com/service/update2/crx",
     "name": "Last 2 Toggle",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Toggle between the two latest tabs using Ctrl+Space",
     "manifest_version": 3,
     "icons": {
@@ -23,7 +23,5 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": [
-        "tabs"
-    ]
+    "permissions": []
 }
